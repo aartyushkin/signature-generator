@@ -1,0 +1,20 @@
+﻿Build started 03.06.2015 19:55:52.
+     1>Project "C:\Users\aartyushkin\Documents\Visual Studio 2013\Projects\scriptparser\scriptparser\scriptparser.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\scriptparser.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\OpenSSL-Win32\include" /ID:\Soft\Boost\boost_1_57_0 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\scriptparser.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\OpenSSL-Win32\include" /ID:\Soft\Boost\boost_1_57_0 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\scriptparser.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt scriptparser.cpp
+         scriptparser.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\aartyushkin\Documents\Visual Studio 2013\Projects\scriptparser\Debug\scriptparser.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\OpenSSL-Win32\lib" /LIBPATH:D:\Soft\Boost\boost_1_57_0\stage\lib ssleay32.lib libeay32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\aartyushkin\Documents\Visual Studio 2013\Projects\scriptparser\Debug\scriptparser.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\aartyushkin\Documents\Visual Studio 2013\Projects\scriptparser\Debug\scriptparser.lib" /MACHINE:X86 Debug\scriptparser.obj
+         Debug\stdafx.obj
+     1>libboost_regex-vc120-mt-sgd-1_57.lib(w32_regex_traits.obj) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(607,5): error MSB6006: "link.exe" exited with code 1112.
+     1>Done Building Project "C:\Users\aartyushkin\Documents\Visual Studio 2013\Projects\scriptparser\scriptparser\scriptparser.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.83
